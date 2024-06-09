@@ -1,0 +1,60 @@
+/* section 1 */
+*{
+    box-sizing: border-box;
+}
+input{
+width: 100%;
+height: 2rem;
+border-radius: 10px;
+border-style: none;
+border-bottom: solid 2px;
+outline: none;
+background-image: linear-gradient(to right, rgb(253, 253, 253), #f0dedf);
+
+}
+.login .data_inputs{
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    display: block;
+}
+h2{
+    text-align: center;
+    color: cornsilk;
+    opacity: 100%;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 250px;
+    background-image: linear-gradient(to right, rgb(226, 225, 183), rgb(234, 205, 86));
+    border-radius: 5px;
+    position: relative;
+    left: 25rem;
+    top: 20rem;
+    opacity: 85%;
+
+}
+
+button{
+    margin-left: 35px;
+} 
+.forget {
+    text-align: center;
+    justify-content: center;
+}   
+a{
+  color: #437cc2;
+  text-decoration: none;
+  padding: 5px;
+  background-color: rgb(253, 253, 253);
+  border-radius: 50px;
+}
+img{
+    width: 100%;
+    position: absolute;
+    object-fit: fill;
+    justify-content: center;
+}
+
